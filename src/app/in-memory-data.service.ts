@@ -8,16 +8,16 @@ import { Hero } from './hero';
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes = [
-      { id: 11, name: 'Dr Nice' },
-      { id: 12, name: 'Narco' },
-      { id: 13, name: 'Bombasto' },
-      { id: 14, name: 'Celeritas' },
-      { id: 15, name: 'Magneta' },
-      { id: 16, name: 'RubberMan' },
-      { id: 17, name: 'Dynama' },
-      { id: 18, name: 'Dr IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
+      { id: 0, name: 'Dr Nice', age: 24, phone: +84964533459, email: 'congdai0@gmail.com'},
+      { id: 1, name: 'Narco', age: 22, phone: +84964533458, email: 'congdai1@gmail.com' },
+      { id: 2, name: 'Bombasto', age: 22, phone: +84964533457, email: 'congdai2@gmail.com' },
+      { id: 3, name: 'Celeritas', age: 24, phone: +84964533456, email: 'congdai3@gmail.com' },
+      { id: 4, name: 'Magneta', age: 20, phone: +84964533455, email: 'congdai4@gmail.com' },
+      { id: 5, name: 'RubberMan', age: 18, phone: +84964533454, email: 'congdai5@gmail.com' },
+      { id: 6, name: 'Dynama', age: 24, phone: +84964533453, email: 'congdai6@gmail.com' },
+      { id: 7, name: 'Dr IQ', age: 16, phone: +84964533452, email: 'congdai7@gmail.com' },
+      { id: 8, name: 'Magma', age: 24, phone: +84964533451, email: 'congdai8@gmail.com' },
+      { id: 9, name: 'Tornado', age: 18, phone: +84964533450, email: 'congdai9@gmail.com' }
     ];
     return {heroes};
   }

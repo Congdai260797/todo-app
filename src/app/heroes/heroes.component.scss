@@ -88,3 +88,17 @@ button.delete:hover {
     background-color: #525252;
     color: white;
 }
+
+.label-item {
+    & input {
+        margin-top: 0px;
+    }
+}
+
+.mg-r {
+    padding-right: 15px !important;
+}
+
+.mg-l {
+    padding-left: 15px !important;
+}
